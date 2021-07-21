@@ -137,6 +137,9 @@ MVC는 앱이 커지면 슈퍼 빅 울트라 Model을 만들 가능성이 높고
 
 Flux로 단방향 업데이트를 지향하는 것이 좋다고 개인적으론 생각한다.
 
+> 추가로 면접에서 Redux 미들웨어가 왜 필요한가를 질문받았다.
+> redux saga와 thunk에 대한 질문이 아니었나 싶다. action을 dispatch하는 중에 비동기로 API 요청할 일이 필요한 게 당연한 것인데 어버버버버버... 바보 머저리 ㅠㅠ
+
 <br>
 또 라이브러리 유지보수 업데이트 입장에선 사람들이 많이쓰고 관심을 많이 갖는 오픈소스는 개선이 빠르게 될 가능성이 높기 때문이다.
 
@@ -175,6 +178,3 @@ Typescript를 개발하기에 매우매우 편한환경으로 개선 중이다.
 [타입스크립트 vscode 가이드](https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration)
 
 [Node.js의 후회를 바탕으로 만들어진 Deno](https://www.youtube.com/watch?v=M3BM9TB-8yA&ab_channel=JSConf)
-
-- tslint (x), eslint (o)
--
